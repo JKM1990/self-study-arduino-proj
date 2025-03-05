@@ -3,18 +3,18 @@
 ## Electronics Fundamentals
 | Skill | Proficiency | Last Updated |
 |-------|-------------|--------------|
-| Component identification | Basic | March 2025 |
-| Circuit reading | Basic | March 2025 |
-| Voltage/current understanding | Basic | March 2025 |
-| Breadboard mastery | Basic | March 2025 |
-| Safety protocols | Basic | March 2025 |
+| Component identification | Basic | January 2025 |
+| Circuit reading | Basic | January 2025 |
+| Voltage/current understanding | February | March 2025 |
+| Breadboard mastery | Basic | February-March 2025 |
+| Safety protocols | Basic | January-March 2025 |
 
 ## Programming Skills
 | Skill | Proficiency | Last Updated |
 |-------|-------------|--------------|
-| C++ syntax | Beginner | March 2025 |
-| Arduino functions | Beginner | March 2025 |
-| Code organization | Beginner | March 2025 |
+| C++ syntax | Beginner | February 2025 |
+| Arduino functions | Beginner | February 2025 |
+| Code organization | Beginner | February 2025 |
 | Debugging techniques | Not started | March 2025 |
 | Documentation practices | Basic | March 2025 |
 
