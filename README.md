@@ -64,6 +64,7 @@ Self-directed learning project to build a two-axis drawing system using Arduino 
 - Arduino Official Documentation
 - Component Datasheets
 - Claude AI (primary learning companion)
+- Youtube
 
 ## Safety Protocols
 Safety guidelines are being followed at all stages of development to ensure proper handling of electronic components and mechanical systems.
