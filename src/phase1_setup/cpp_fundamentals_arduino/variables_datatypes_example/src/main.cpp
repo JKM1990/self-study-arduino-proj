@@ -12,6 +12,13 @@ unsigned long startTime = 0;      // For tracking time since start
 unsigned int cycleCount = 0;      // Counter for loop cycles
 byte errorCode = 0;               // Error status code (0 = no error)
 
+// Function to check available RAM
+int freeRam() {
+  extern int __heap_start, *__brkval;
+  int v;
+  return (int) &v - (__brkval == 0 ? (int) &__heap_start : (int) __brkval);
+}
+
 void setup() {
   // Initialize serial communication
   Serial.begin(9600);
@@ -29,6 +36,8 @@ void setup() {
   Serial.print(freeRam());  // We'll implement this function
   Serial.println(F(" bytes"));
 }
+
+unsigned long lastSecondCheck = 0;
 
 void loop() {
   // Track current time (rolls over after ~49 days)
@@ -50,24 +59,18 @@ void loop() {
     delay(300);
   }
   
-  // Track performance 
-  cycleCount++;
-  
   // Every second, print status
-  if (currentTime % 1000 < 10) {  // Check if we just crossed a second boundary
+  if (currentTime- lastSecondCheck >= 1000) {  // Check if we just crossed a second boundary
+    lastSecondCheck = currentTime; // Update the timestamp
     Serial.print(F("Uptime: "));
-    Serial.print((currentTime - startTime) / 1000);  // Convert to seconds
+    Serial.print(currentTime / 1000);  // Convert to seconds
     Serial.print(F(" seconds, cycles: "));
     Serial.println(cycleCount);
     
     // Reset cycle counter
     cycleCount = 0;
   }
-}
 
-// Function to check available RAM
-int freeRam() {
-  extern int __heap_start, *__brkval;
-  int v;
-  return (int) &v - (__brkval == 0 ? (int) &__heap_start : (int) __brkval);
+  // Track performance 
+  cycleCount++;
 }
