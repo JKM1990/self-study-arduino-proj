@@ -9,7 +9,7 @@ bool systemRunning = false;       // Boolean for system state
 unsigned long startTime = 0;      // For tracking time since start
 
 // Performance tracking
-unsigned int cycleCount = 0;      // Counter for loop cycles
+unsigned int cycleCount = 0;      // Counter for how many times the loop is run (cycles)
 byte errorCode = 0;               // Error status code (0 = no error)
 
 // Function to check available RAM
