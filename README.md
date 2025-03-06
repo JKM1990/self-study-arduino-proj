@@ -12,14 +12,14 @@ Self-directed learning project to build a two-axis drawing system using Arduino 
 ## Project Timeline
 - **Total Duration:** 16 weeks
 - **Total Story Points:** 84 across 4 phases
-- **Current Progress:** Phase 1 (3/16 points completed)
+- **Current Progress:** Phase 1 (5/16 points completed)
 
 ## Project Phases
 1. **Setup and Basics (16 points)**
    - Arduino IDE setup ✓
    - Basic LED circuit ✓
-   - C++ fundamentals
-   - Button input with debouncing
+   - C++ fundamentals (Next)
+   - Button input with debouncing ✓
    - Technical diagrams
    - Breadboard prototyping
 
@@ -52,12 +52,11 @@ Self-directed learning project to build a two-axis drawing system using Arduino 
 - Additional: SG90 Servo Motor for pen mechanism
 
 ## Repository Structure
-- **/progress/** - Weekly progress reports and phase completion
-- **/src/** - All Arduino code (experiments, libraries, main project)
+- **/docs/** - Detailed logs of experiments and learning
+- **/docs/progress/** - Phase progress reports for all subtasks in current phase, extensive documentation.
+- **/src/** - All Arduino code (Phase experiments, libraries, main project)
 - **/hardware/** - Hardware documentation (components, schematics, assembly)
-- **/docs/** - Technical documentation (references, troubleshooting, design)
-- **/media/** - Photos and videos of progress
-- **/logs/** - Detailed logs of experiments and learning
+- **/media/** - Videos of progress linked to my Youtube channel (private videos)
 
 ## Learning Resources
 - Arduino Project Hub
