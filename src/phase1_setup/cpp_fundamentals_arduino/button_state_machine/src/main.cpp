@@ -28,6 +28,9 @@ int buttonState = HIGH;
 // LED brightness levels
 const byte brightness[] = {0, 64, 150, 255};  // For OFF, LOW, MED, HIGH
 
+// Declare function prototype
+void updateLeds();
+
 void setup() {
   // Configure pins
   pinMode(BUTTON_PIN, INPUT_PULLUP);
