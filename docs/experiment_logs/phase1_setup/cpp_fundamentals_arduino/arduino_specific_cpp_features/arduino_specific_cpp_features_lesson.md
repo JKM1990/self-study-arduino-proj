@@ -523,5 +523,3 @@ We've covered:
    - Practical applications for LED control
 
 These concepts form the foundation for more advanced Arduino programming techniques, especially when it comes to optimizing your code for the limited resources of the Arduino platform.
-
-Is there any specific part you'd like to explore further, or should we continue with the practical applications from Hour 3?

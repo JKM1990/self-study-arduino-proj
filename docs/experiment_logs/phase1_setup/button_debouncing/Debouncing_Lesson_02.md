@@ -1,5 +1,3 @@
-I'll help you set up the button debouncing circuit on your breadboard. Let me walk you through this step-by-step with the ELEGOO Uno R3 starter kit components.
-
 # Setting Up Your Button Debouncing Circuit
 
 ## Components You'll Need
