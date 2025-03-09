@@ -182,17 +182,21 @@ void runCurrentPattern() {
       }
       
       // Use a different mask based on step to create interesting effects
-      byte mask = (1 << (patternStep % 8)) - 1;
-      ledState = randomByte & mask;
+      {
+        byte mask = (1 << (patternStep % 8)) - 1;
+        ledState = randomByte & mask;
+      }
       break;
       
     case PATTERN_KNIGHT_RIDER:
       // Knight Rider/KITT pattern (light moves back and forth)
-      byte pos = patternStep % (2 * NUM_LEDS - 2);
-      if (pos >= NUM_LEDS) {
-        pos = 2 * NUM_LEDS - 2 - pos; // Reverse direction
+      {
+        byte pos = patternStep % (2 * NUM_LEDS - 2);
+        if (pos >= NUM_LEDS) {
+          pos = 2 * NUM_LEDS - 2 - pos; // Reverse direction
+        }
+        ledState = 1 << pos; // Set only the bit at position 'pos'
       }
-      ledState = 1 << pos; // Set only the bit at position 'pos'
       break;
   }
 }
