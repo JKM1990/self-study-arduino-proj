@@ -12,13 +12,13 @@ Self-directed learning project to build a two-axis drawing system using Arduino 
 ## Project Timeline
 - **Total Duration:** 16 weeks
 - **Total Story Points:** 84 across 4 phases
-- **Current Progress:** Phase 1 (7/16 points completed)
+- **Current Progress:** Phase 1 (8/16 points completed)
 
 ## Project Phases
 1. **Setup and Basics (16 points)**
    - Arduino IDE setup ✓
    - Basic LED circuit ✓
-   - C++ fundamentals (In Progress) ✓
+   - C++ fundamentals ✓
    - Button input with debouncing ✓
    - Technical diagrams
    - Breadboard prototyping
