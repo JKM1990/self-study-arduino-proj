@@ -25,8 +25,10 @@ Phase 1 focuses on establishing fundamental skills and understanding of Arduino 
 - Digital input and output handling
 - Button debouncing techniques
 - GitHub documentation practices
+- C++ object-oriented programming for Arduino
+- Bit manipulation and direct port access
+- Non-blocking code patterns and state machines
 
 ## Next Priorities
-1. Complete C++ fundamentals
-2. Develop technical documentation skills
-3. Expand breadboard prototyping capabilities
+1. Develop technical documentation skills
+2. Expand breadboard prototyping capabilities

@@ -13,9 +13,9 @@
 ## Programming Skills
 | Skill | Proficiency | Last Updated |
 |-------|-------------|--------------|
-| C++ syntax | Basic+ | March 2025 |
+| C++ syntax | Intermediate | March 2025 |
 | Arduino functions | Basic+ | March 2025 |
-| Code organization | Basic+ | March 2025 |
+| Code organization | Intermediate | March 2025 |
 | Debugging techniques | Basic | March 2025 |
 | Documentation practices | Basic | March 2025 |
 | Timing operations | Basic | March 2025 |
@@ -37,7 +37,7 @@
 | Error handling | Basic | March 2025 |
 | Calibration | Not started | March 2025 |
 | Safety systems | Not started | March 2025 |
-| Performance optimization | Beginner | March 2025 |
+| Performance optimization | Basic | March 2025 |
 | Signal processing | Basic | March 2025 |
 
 ## Proficiency Levels
