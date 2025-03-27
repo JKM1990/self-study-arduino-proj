@@ -130,6 +130,7 @@ Self-directed learning project to build a two-axis drawing system using Arduino 
 Safety guidelines are being followed at all stages of development to ensure proper handling of electronic components and mechanical systems.
 
 ## Contact
-Jeff Manser - Second-year programming student
-E-mail: jeffkmanser@gmail.com (Personal)
-        w0194127@nscc.ca (NSCC account)
+Jeff Manser - Second-year programming student\
+E-mail:\
+jeffkmanser@gmail.com (Personal)\
+w0194127@nscc.ca (NSCC account)
