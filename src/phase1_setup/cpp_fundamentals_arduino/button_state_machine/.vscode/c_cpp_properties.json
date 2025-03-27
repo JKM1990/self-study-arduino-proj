@@ -1,0 +1,56 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/jeff/PlatformIO/Projects/arduino_2d_plotter/src/phase1_setup/cpp_fundamentals_arduino/button_state_machine/include",
+                "/home/jeff/PlatformIO/Projects/arduino_2d_plotter/src/phase1_setup/cpp_fundamentals_arduino/button_state_machine/src",
+                "/home/jeff/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/home/jeff/.platformio/packages/framework-arduino-avr/variants/standard",
+                "/home/jeff/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/home/jeff/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/home/jeff/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/home/jeff/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "/home/jeff/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/jeff/PlatformIO/Projects/arduino_2d_plotter/src/phase1_setup/cpp_fundamentals_arduino/button_state_machine/include",
+                    "/home/jeff/PlatformIO/Projects/arduino_2d_plotter/src/phase1_setup/cpp_fundamentals_arduino/button_state_machine/src",
+                    "/home/jeff/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/home/jeff/.platformio/packages/framework-arduino-avr/variants/standard",
+                    "/home/jeff/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/home/jeff/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/home/jeff/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/home/jeff/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "/home/jeff/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60117",
+                "ARDUINO_AVR_UNO",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega328P__",
+                ""
+            ],
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "compilerPath": "/home/jeff/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega328p",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

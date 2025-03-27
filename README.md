@@ -12,15 +12,26 @@ Self-directed learning project to build a two-axis drawing system using Arduino 
 ## Project Timeline
 - **Total Duration:** 16 weeks
 - **Total Story Points:** 84 across 4 phases
+<<<<<<< HEAD
+=======
+- **Current Progress:** Phase 1 (8/16 points completed)
+>>>>>>> phase1/cpp_fundamentals_arduino
 
 ## Project Phases
 1. **Setup and Basics (16 points)**
    - Arduino IDE setup ✓
    - Basic LED circuit ✓
+<<<<<<< HEAD
    - Button input with debouncing ✓
    - C++ fundamentals ✓
    - Technical diagrams ✓
    - Breadboard prototyping ✓
+=======
+   - C++ fundamentals ✓
+   - Button input with debouncing ✓
+   - Technical diagrams
+   - Breadboard prototyping
+>>>>>>> phase1/cpp_fundamentals_arduino
 
 2. **Motor Control (21 points)**
    - Wire up stepper motor
@@ -108,6 +119,7 @@ Self-directed learning project to build a two-axis drawing system using Arduino 
 - **Capacitors** for motor noise suppression
 
 ## Repository Structure
+<<<<<<< HEAD
 - **/docs/** - Documentation, experiment logs, progress tracking
   - **/docs/experiment_logs/** - Detailed documentation of experiments
   - **/docs/progress/** - Phase-based progress documentation
@@ -118,6 +130,13 @@ Self-directed learning project to build a two-axis drawing system using Arduino 
   - **/src/main/** - Production code
 - **/hardware/** - Hardware documentation (components, schematics, assembly)
 - **/media/** - Photos and videos of progress
+=======
+- **/docs/** - Detailed logs of experiments and learning
+- **/docs/progress/** - Phase progress reports for all subtasks in current phase, extensive documentation.
+- **/src/** - All Arduino code (Phase experiments, libraries, main project)
+- **/hardware/** - Hardware documentation (components, schematics, assembly)
+- **/media/** - Videos of progress linked to my Youtube channel (private videos)
+>>>>>>> phase1/cpp_fundamentals_arduino
 
 ## Learning Resources
 - Arduino Project Hub

@@ -3,7 +3,7 @@
 ## Agent Workflow
 - ALWAYS ask user before writing any files or performing build commands
 - DO NOT upload code to Arduino board - user will handle this manually
-- Present code for review before implementing in project files
+- Only suggest code blocks instead of outright giving the user the full answer.
 
 ## Development Environment
 - WSL: Ubuntu 24.04
@@ -31,7 +31,7 @@
 - **Functions**: Keep functions small (<50 lines), single responsibility
 
 ## Project Organization
-- `/src/main` - Production code for current phase
-- `/src/experiments` - Experimental sketches
+- `/src/main` - Production code for final 2d plotter project
+- `/src/phase1_setup` - Development code for phase subtasks (Currently phase 1 basics and setup)
 - `/src/libraries` - Custom libraries
 - `/docs` - Documentation and experiment logs

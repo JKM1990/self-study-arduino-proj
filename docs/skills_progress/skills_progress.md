@@ -13,10 +13,10 @@
 ## Programming Skills
 | Skill | Proficiency | Last Updated |
 |-------|-------------|--------------|
-| C++ syntax | Beginner | February 2025 |
-| Arduino functions | Basic | March 2025 |
-| Code organization | Beginner | February 2025 |
-| Debugging techniques | Beginner | March 2025 |
+| C++ syntax | Intermediate | March 2025 |
+| Arduino functions | Basic+ | March 2025 |
+| Code organization | Intermediate | March 2025 |
+| Debugging techniques | Basic | March 2025 |
 | Documentation practices | Basic | March 2025 |
 | Timing operations | Basic | March 2025 |
 | Input debouncing | Basic | March 2025 |
@@ -34,11 +34,11 @@
 | Skill | Proficiency | Last Updated |
 |-------|-------------|--------------|
 | Multi-component coordination | Not started | March 2025 |
-| Error handling | Beginner | March 2025 |
+| Error handling | Basic | March 2025 |
 | Calibration | Not started | March 2025 |
 | Safety systems | Not started | March 2025 |
-| Performance optimization | Not started | March 2025 |
-| Signal processing | Beginner | March 2025 |
+| Performance optimization | Basic | March 2025 |
+| Signal processing | Basic | March 2025 |
 
 ## Proficiency Levels
 - **Not started**: No experience yet
